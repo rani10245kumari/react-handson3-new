@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import DataStore from "./Display";
-import "../App.css";
+import DataStore from "./Funn";
+import "./App.css";
 class Formpage extends Component {
     constructor() {
         super();
