@@ -2,7 +2,7 @@ body {
   height: 100vh;
   padding: 0px;
   margin: 0px;
-  background: linear-gradient(90deg, rgb(67, 160, 197) 0%, rgb(124, 194, 206) 35%, rgb(137, 230, 222) 100%);
+  background: linear-gradient(90deg, rgb(93, 160, 187) 0%, rgb(199, 124, 206) 35%, rgb(137, 230, 222) 100%);
   overflow-y: hidden;
 }
 
@@ -10,18 +10,24 @@ body {
   text-align: center;
 }
 
+h1 {
+  font-size: 45px;
+  color: rgb(3, 48, 33);
+}
+
 .label {
-  font-size: 28px;
+  font-size: 32px;
   font-weight: bolder;
 }
 
 .input1 {
-  width: 180px;
-  height: 40px;
-  border-radius: 10px;
+  text-align: center;
+  width: 200px;
+  height: 45px;
+  border-radius: 20px;
   font-size: 18px;
   margin-left: 60px;
-  background-color: rgb(201, 243, 243);
+  background-color: rgb(208, 243, 243);
 }
 
 .btn {
@@ -37,11 +43,11 @@ body {
   font-weight: bolder;
 }
 
-.go {
+.back {
   width: 200px;
   height: 40px;
   border-radius: 10px;
-  font-size: 22px;
+  font-size: 32px;
   margin-left: 80px;
-  background-color: bisque;
+  background-color: rgb(90, 204, 212);
 }

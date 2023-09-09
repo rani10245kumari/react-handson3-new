@@ -1,10 +1,10 @@
 
 import './App.css';
-import Formpage from "./CLasscom"
+import FormReact from './ClassComp'
 function App() {
   return (
     <div className="App">
-      <Formpage></Formpage>
+      <FormReact></FormReact>
     </div>
   );
 }
